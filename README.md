@@ -32,10 +32,16 @@ graph TD
     Success -- No --> Revert4[REVERT: Tx Failed]
     Success -- Yes --> End([Event: Transaction Executed])
 
-    style Start fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style Revert1 fill:#ffcdd2,stroke:#b71c1c
-    style Revert2 fill:#ffcdd2,stroke:#b71c1c
-    style Revert3 fill:#ffcdd2,stroke:#b71c1c
-    style Revert4 fill:#ffcdd2,stroke:#b71c1c
-    style End fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    style Verification_Loop fill:#fff9c4,stroke:#fbc02d,stroke-dasharray: 5 5
+    
+    linkStyle default stroke:#333333,stroke-width:1px;
+    
+    style Start fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000
+    
+    style Revert1 fill:#e0e0e0,stroke:#000000,stroke-width:1px,color:#000000
+    style Revert2 fill:#e0e0e0,stroke:#000000,stroke-width:1px,color:#000000
+    style Revert3 fill:#e0e0e0,stroke:#000000,stroke-width:1px,color:#000000
+    style Revert4 fill:#e0e0e0,stroke:#000000,stroke-width:1px,color:#000000
+    
+    style End fill:#ffffff,stroke:#000000,stroke-width:4px,color:#000000
+    
+    style Verification_Loop fill:#ffffff,stroke:#666666,stroke-dasharray: 5 5,color:#000000
